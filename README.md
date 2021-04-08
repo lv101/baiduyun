@@ -1,4 +1,6 @@
 # baiduyun
 百度云资源搜索
 --------------------------------------------
-基于flask+python+html+javascript+css  可搜索百度云资源
+基于 `flask+python+html+javascript+css` 可搜索百度云资源
+根据 `IP` 地址进行访问拦截，返回 `404` 页面
+实现多用户并行访问搜索
