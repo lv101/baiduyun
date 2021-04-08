@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>小吕快搜</title>
+		<link rel="stylesheet" type="text/css" href="../static/css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="../static/css/index_BDY.css"/>
+		<link rel="icon" type="text/css" href="../static/img/favicon_BDY.ico"/>
+		<script type="text/javascript" src="../static/js/jquery-3.5.1.min.js"></script>
+		<script type="text/javascript" src="../static/js/index_BDY.js"></script>
+	</head>
+	<body>
+		
+		<div class="bg-img">
+			<img src="../static/img/百度云.png"/>
+		</div>
+		<form action="/research" class="research" target="nm_iframe">
+
+				<input type="text" class="text" name="keyword" placeholder="请输入你想要查找的资源..." autocomplete="off" autofocus onmouseover="this.focus()" onfocus="this.select()"/>
+				<input type="submit" class="submit" value="搜索"/><br />
+
+		</form>
+		<!-- 设置提交表单页面不跳转 -->
+		<iframe id="id_iframe" name="nm_iframe" style="display:none;"></iframe>
+		
+		<div class="outer">
+			
+			<div class="top"></div>
+			<div class="result"></div>
+			<div class="bottom"></div>
+		
+		</div>
+		
+	<!--<form action="/login">
+	        用户名：<input type="text" name="username" autocomplete="off"></input><br>
+	        密&nbsp;&nbsp;&nbsp;码：<input type="password" name="password" autocomplete="off"></input>
+        <input type="submit" value="注册"></input>
+    </form>-->
+		
+	</body>
+</html>
